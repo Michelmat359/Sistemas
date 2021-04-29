@@ -6,7 +6,7 @@ services:
         container_name: 'timescale-container'
         restart: always
         environment:
-        - POSTGRES_DB=dih4cpsdb
+        - POSTGRES_DB=Databasepostres
         - POSTGRES_USER=postgres
         - POSTGRES_PASSWORD=admin
         volumes:
