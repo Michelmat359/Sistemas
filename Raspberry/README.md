@@ -2,7 +2,7 @@
 
 ### 1. Descargar e instalar raspbian en  SD
    * Descargar https://downloads.raspberrypi.org/raspbian_lite_latest
-   * Descargar a instalar Etcher (para instalar en la SD) https://etcher.io/
+   * Descargar e instalar Etcher (para instalar en la SD) https://etcher.io/
    * Instalar imagen en la SD
   
 ### 2. Una vez que raspbian está instalado:
