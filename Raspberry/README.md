@@ -30,14 +30,14 @@ sudo apt-key fingerprint 0EBFCD88
 ```
 
 
-### 6. Instalar Docker
+### 5. Instalar Docker
 
 ```
 curl -sSL https://get.docker.com | sh
 sudo apt-get update && sudo apt-get install -y --no-install-recommends docker-compose
 ```
 
-### 7. Agregar usuario al grupo docker y desloguearse y volverse a loguear
+### 6. Agregar usuario al grupo docker y desloguearse y volverse a loguear
 
 ```
 sudo usermod -a -G docker <usuario>
