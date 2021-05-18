@@ -1,0 +1,15 @@
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts		
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt		
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt			
+https://v.firebog.net/hosts/AdguardDNS.txt		
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt		
+https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt		
+https://v.firebog.net/hosts/static/w3kbl.txt		
+https://v.firebog.net/hosts/neohostsbasic.txt		
+https://v.firebog.net/hosts/Admiral.txt		
+https://v.firebog.net/hosts/Easylist.txt		
+https://v.firebog.net/hosts/Easyprivacy.txt		
+https://v.firebog.net/hosts/Prigent-Ads.txt		
+https://v.firebog.net/hosts/Prigent-Crypto.txt		
+https://v.firebog.net/hosts/Shalla-mal.txt		
+https://v.firebog.net/hosts/Prigent-Malware.txt
