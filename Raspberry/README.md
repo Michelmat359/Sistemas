@@ -4,6 +4,7 @@
    * Descargar https://downloads.raspberrypi.org/raspbian_lite_latest
    * Descargar e instalar Etcher (para instalar en la SD) https://etcher.io/
    * Instalar imagen en la SD
+   * También podeis bajaros el instalador oficial de Raspberry PI para windows. https://downloads.raspberrypi.org/imager/imager_latest.exe
   
 ### 2. Una vez que raspbian está instalado:
    * Cambiar password de usuario Pi (recomendado)
