@@ -46,3 +46,19 @@ sudo usermod -a -G docker <usuario>
 ```
 
 Con todo esto ya tendremos preparado nuestro entorno de docker dentro de una Raspberry PI 4
+
+# Instalar Docker-compose:
+
+## Instalar docker-compose    
+```    
+    sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+## Permisos
+```
+    sudo chmod +x /usr/local/bin/docker-compose
+```
+## Test
+```
+    Docker-compose version
+```
+
