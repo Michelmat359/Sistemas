@@ -10,14 +10,13 @@
 3. Kompose es una herramienta que permite de forma automatica generar los charts a partir de un docker-compose. Es una herramienta muy potente que permite facilitar la migración de ficheros distributables docker a kubernetes
 
 
-### Instalar componentes de Kubernetes
-#### K3S
+## Instalar componentes de Kubernetes
+### K3S
 ```
     
 curl -sfL https://get.k3s.io | sh -s - --write-kubeconfig-mode 644 --node-ip {YOUR-IP} --node-external {YOUR-IP}
 # ejemplo: 
 curl -sfL https://get.k3s.io | sh -s - --write-kubeconfig-mode 644 --node-ip 192.168.1.50 --node-external-ip 192.168.1.50
-
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 
 
@@ -30,7 +29,7 @@ kubectl get nodes
 kubectl cluster-info
 ```
 
-#### Helm
+### Helm
 ```
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 chmod 700 get_helm.sh
@@ -43,7 +42,7 @@ helm version
 helm ls
 ```
 
-#### Kompose
+### Kompose
 ```
 curl -L https://github.com/kubernetes/kompose/releases/download/v1.22.0/kompose-linux-amd64 -o kompose
 chmod +x kompose
