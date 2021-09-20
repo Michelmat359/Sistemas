@@ -4,11 +4,11 @@ Preparar un entorno completo con Docker para Hacking Web.
 Si ejecutas docker-compose up tendrás los siguientes servicios:
 
 ```
-http://IP:8081/        -> BodgeIT
-http://IP:8082/WebGoat -> WebGoat
-http://IP:8083/        -> Damn Vulnerable Web Application
-http://IP:8084/        -> Juice Shop
-http://IP:8085/        -> Damn Vulnerable Node Application
+http://localhost:8081/        -> BodgeIT
+http://localhost:8082/WebGoat -> WebGoat
+http://localhost:8083/        -> Damn Vulnerable Web Application
+http://localhost:8084/        -> Juice Shop
+http://localhost:8085/        -> Damn Vulnerable Node Application
 ```
 ## Bodge IT
 La tienda BodgeIt es una aplicación web vulnerable que actualmente está dirigida a personas que se inician en el pen testing. Puedes encontrar toda la información en el repositorio oficial https://github.com/psiinon/bodgeit
