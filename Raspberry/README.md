@@ -49,16 +49,20 @@ Con todo esto ya tendremos preparado nuestro entorno de docker dentro de una Ras
 
 # Instalar Docker-compose:
 
-## Instalar docker-compose    
-```    
-    sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+# Instalar docker-compose version 2
+La instalación de docker-compose utilizando el gestor de paquetes apt fallará ya que la arquitectura arm de Raspberry Pi no es actualmente compatible.
+Si te sientes valiente y tratas de usar apt-get, lo más probable es que termines con el siguiente error cuando intentes ejecutar docker-compose: 
 ```
-## Permisos
+/usr/local/bin/docker-compose: line 1: Not: command not found
 ```
-    sudo chmod +x /usr/local/bin/docker-compose
+Lo instalaremos por medio de pip3:
+```
+sudo apt-get install -y libffi-dev libssl-dev
+sudo apt-get install -y python3 python3-pip
+sudo apt-get remove python-configparser
+sudo pip3 -v install docker-compose
 ```
 ## Test
 ```
-    Docker-compose version
+    docker-compose version
 ```
-
