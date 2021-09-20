@@ -3,7 +3,7 @@ services:
     rpi-monitor:
         devices:
             - /dev/vchiq
-            - /dev/vcsm
+            - /dev/vcsm-cma
         volumes:
             - '/opt/vc:/opt/vc'
             - '/boot:/boot'
