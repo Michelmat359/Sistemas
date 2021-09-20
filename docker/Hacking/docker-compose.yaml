@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+    bodgeit:
+        ports:
+            - '8081:8080'
+        image: psiinon/bodgeit
+    goatandwolf:
+        ports:
+            - '8082:8080'
+            - '9090:9090'
+        environment:
+            - TZ=Europe/Amsterdam
+        image: webgoat/goatandwol
+    web-dvwa:
+        ports:
+            - '8083:80'
+        image: vulnerables/web-dvwa
+    juice-shop:
+        ports:
+            - '8084:3000'
+        image: bkimminich/juice-shop
+    dvna:
+        ports:
+            - '8085:9090'
+        image: dvna
