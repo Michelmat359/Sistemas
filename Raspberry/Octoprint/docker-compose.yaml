@@ -1,0 +1,22 @@
+version: '2.4'
+
+services:
+  octoprint:
+    image: octoprint/octoprint
+    restart: unless-stopped
+    ports:
+      - 8081:80
+    devices:
+    # usa `python -m serial.tools.miniterm` para conocer los dispositivos
+    # Camara:
+      - /dev/ttyAMA0:/dev/ttyAMA0
+      - /dev/video0:/dev/video0
+    # USB por donde conecto la impresora
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    volumes:
+     - octoprint:/octoprint
+    environment:
+     - ENABLE_MJPG_STREAMER=true
+
+volumes:
+  octoprint:
