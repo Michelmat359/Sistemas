@@ -30,6 +30,7 @@
     # Usage
     sudo usermod -aG docker {USERNAME}
 ```
+*Reboot system*
 
 ## Test 
 ```
@@ -49,5 +50,5 @@
 ```
 ## Test
 ```
-    Docker-compose version
+    docker-compose version
 ```
