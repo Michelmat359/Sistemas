@@ -18,7 +18,7 @@ sudo apt-get update && sudo apt-get install -y \
      curl \
      gnupg2 \
      software-properties-common \
-     vim \
+     nano \
      fail2ban \
      ntfs-3g
 ```
